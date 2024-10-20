@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "434e2fc5-659a-4040-9470-6b8275ecf3f1",
+		"name": "Spring AI Model",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14301102"
+	},
+	"item": [
+		{
+			"name": "chatResponse",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/chat/?prompt=one quote for today",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"chat",
+						""
+					],
+					"query": [
+						{
+							"key": "prompt",
+							"value": "one quote for today"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ImageResponse",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/chat/?prompt=one quote for today",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"chat",
+						""
+					],
+					"query": [
+						{
+							"key": "prompt",
+							"value": "one quote for today"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recipe Creator",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/chat/?prompt=one quote for today",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"chat",
+						""
+					],
+					"query": [
+						{
+							"key": "prompt",
+							"value": "one quote for today"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
